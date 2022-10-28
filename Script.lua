@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Smallys Hub - dsc.gg/smallgamesz", "")
+local Window = Library.CreateLib("Smallys Hub", "DarkTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
@@ -50,3 +50,43 @@ MainSection:NewButton("Reset WS/JP", "Reset Your Walkspeed And JumpPower", funct
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
  end)
+
+
+ --OTHER
+local Tab = Window:NewTab("Other")
+local Section = Tab:NewSection("random")
+Section:NewButton("Prevail X", "yea cool", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmallPreston/OP-PRISON-LIFE-SCRIPT/main/broken.lua"))()
+end)
+
+
+local StarterGui = game:GetService("StarterGui")
+
+local Notifications = {
+	"LOADED, made by: SmallPreston#0001",
+	"Notification Message 2",
+	"Notification Message 3",
+	"Notification Message 4",
+	"Notification Message 5",
+}
+
+local TimeBetweenNotifications = 1212121212132323 --REPLACE 5 WITH THE NUMBER OF SECONDS YOU WANT TO WAIT IN BETWEEN NOTIFICATIONS APPEARING
+
+while true do
+	for i = 1, #Notifications do
+		local Notification = Notifications[i]
+		
+		StarterGui:SetCore("SendNotification", {
+			Title = "SMALLYS GUI HAS LOADED",
+			Text = LOADED,
+			Duration = 5
+		})
+		
+		wait(TimeBetweenNotifications)
+	end
+end
+
+
+
+--IF YOU SKID YOU LIKE MEN
+-- Made By: SmallPreston#0001
