@@ -180,7 +180,19 @@ Section:NewKeybind("Keybind", "how to open/close gui", Enum.KeyCode.P, function(
 	Library:ToggleUI()
 end)
 
+local Section = Tab:NewSection("Themes")
 
+Section:NewButton("blood", "rabies", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmallPreston/Smallys-Hub/main/BloodTheme.lua"))()
+end)
+
+Section:NewButton("Grape", "yum", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmallPreston/Smallys-Hub/main/GrapeTheme.lua"))()
+end)
+
+Section:NewButton("Light", "dont.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmallPreston/Smallys-Hub/main/LightTheme.lua"))()
+end)
 
 local StarterGui = game:GetService("StarterGui")
 
@@ -213,4 +225,4 @@ end
 --IF YOU SKID YOU LIKE MEN
 -- Made By: SmallPreston#0001
 
---CREDS
+--THEMES
