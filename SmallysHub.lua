@@ -1,5 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Smallys Hub", "BloodTheme")
+local Window = Library.CreateLib("Smallys Hub - V10.3", "DarkTheme")
+
+--WELCOME
+
+local Tab = Window:NewTab("Welcome")
+local Section = Tab:NewSection("Smallys Hub Loaded!")
+Section:NewLabel("Made By: SmallPreston#0001")
+Section:NewLabel("Discord: dsc.gg/smallgamesz")
+
 
 -- MAIN
 local Main = Window:NewTab("Main")
@@ -32,6 +40,22 @@ MainSection:NewButton("C00LK1D GUI", "C00LK1D Gui awesome", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/HkE93XjW"))()
  end)
 
+MainSection:NewButton("Ragdoll GUI", "what.", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/yBYDymVG", true))()
+end)
+
+MainSection:NewButton("PSX GUI", "yes.", function()
+   loadstring(game:GetObjects("rbxassetid://8194485654")[1].Source)("Petsi-X")
+end)
+
+MainSection:NewButton("Battle Gods GUI", "made by system exodus", function()
+   loadstring(game:HttpGet("https://system-exodus.com/scripts/misc-releases/battlegods.lua",true))()
+end)
+
+MainSection:NewButton("Unfair Hub", "Supports 40+ Games!", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
 
  --LOCAL PLAYER
  local Player = Window:NewTab("Player")
@@ -51,6 +75,21 @@ MainSection:NewButton("Reset WS/JP", "Reset Your Walkspeed And JumpPower", funct
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
  end)
 
+MainSection:NewButton("Lift Legends GUI", "made by system exodus", function()
+   loadstring(game:HttpGet("https://system-exodus.com/scripts/misc-releases/liftlegends.lua",true))()
+end)
+
+MainSection:NewButton("Mining Simulator 2 GUI", "made by system exodus", function()
+   loadstring(game:HttpGet("https://www.system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua"))()
+end)
+
+MainSection:NewButton("Super Evolution GUI", "made by system exodus", function()
+   loadstring(game:HttpGet("https://system-exodus.com/scripts/misc-releases/superevolution.lua", true))()
+end)
+
+MainSection:NewButton("Ultimate Admin", "admin abooser demote!!11111", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/bVjM0xCS", true))()
+end)
 
  --OTHER
 local Tab = Window:NewTab("Other")
@@ -172,7 +211,7 @@ Section:NewLabel("dsc.gg/smallgamesz")
 
 local Section = Tab:NewSection("Version")
 
-Section:NewLabel("Version: 10.1v BETA")
+Section:NewLabel("Version: 10.3v BETA")
 
 local Section = Tab:NewSection("Keybind")
 
@@ -895,4 +934,4 @@ end
 --IF YOU SKID YOU LIKE MEN
 -- Made By: SmallPreston#0001
 
---THEMES
+--Creds
