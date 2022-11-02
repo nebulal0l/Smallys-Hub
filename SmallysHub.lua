@@ -56,6 +56,9 @@ MainSection:NewButton("Unfair Hub", "Supports 40+ Games!", function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
 
+MainSection:NewButton("Stormware Lite GUI", "Awesome Arsenal Gui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tHiamiNA"))()
+ end)
 
  --LOCAL PLAYER
  local Player = Window:NewTab("Player")
@@ -935,3 +938,5 @@ end
 -- Made By: SmallPreston#0001
 
 --Creds
+--Made By SmallPreston#0001
+-- discord: dsc.gg/smallgamesz
