@@ -1,10 +1,11 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Smallys Hub - V10.3", "DarkTheme")
+local Window = Library.CreateLib("Smallys Hub  - 10.4v Beta", "DarkTheme")
 
 --WELCOME
 
 local Tab = Window:NewTab("Welcome")
 local Section = Tab:NewSection("Smallys Hub Loaded!")
+Section:NewLabel("Thanks for using! :)")
 Section:NewLabel("Made By: SmallPreston#0001")
 Section:NewLabel("Discord: dsc.gg/smallgamesz")
 
@@ -58,6 +59,10 @@ end)
 
 MainSection:NewButton("Stormware Lite GUI", "Awesome Arsenal Gui", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/tHiamiNA"))()
+ end)
+
+MainSection:NewButton("Vxpe V4 GUI", "bedwars wow/", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
  end)
 
  --LOCAL PLAYER
