@@ -33,6 +33,14 @@ MainSection:NewButton("Inf Jump", "Click C to inf jump", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/7wDcPtLk"))()
 end)
 
+MainSection:NewToggle("Spin", "spin", function(state)
+    if state then
+        loadstring(game:HttpGet("https://pastebin.com/raw/yKc49Sur", true))()
+    else
+        loadstring(game:HttpGet("https://pastebin.com/raw/sTf2UUHR", true))()
+    end
+end)
+
  MainSection:NewButton("IY", "inf yield.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
