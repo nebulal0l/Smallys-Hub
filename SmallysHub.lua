@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Smallys Hub  - 10.4v Beta", "DarkTheme")
+local Window = Library.CreateLib("    Smallys Hub  - 10.5v Beta   ", "DarkTheme")
 
 --WELCOME
 
@@ -71,6 +71,14 @@ MainSection:NewButton("Stormware Lite GUI", "Awesome Arsenal Gui", function()
 
 MainSection:NewButton("Vxpe V4 GUI", "bedwars wow/", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+ end)
+
+ MainSection:NewButton("Faded GUI", "made by crispygo for da hood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+ end)
+
+ MainSection:NewButton("Da Hood Aimlock", "aimlock for da hood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
  end)
 
  --LOCAL PLAYER
@@ -227,7 +235,7 @@ Section:NewLabel("dsc.gg/smallgamesz")
 
 local Section = Tab:NewSection("Version")
 
-Section:NewLabel("Version: 10.3v BETA")
+Section:NewLabel("Version: 10.5v BETA")
 
 local Section = Tab:NewSection("Keybind")
 
