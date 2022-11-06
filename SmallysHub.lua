@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("    Smallys Hub  - 10.5v Beta   ", "DarkTheme")
+local Window = Library.CreateLib("    Smallys Hub  - 10.6v Beta   ", "DarkTheme")
 
 --WELCOME
 
@@ -11,8 +11,8 @@ Section:NewLabel("Discord: dsc.gg/smallgamesz")
 
 
 -- MAIN
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Hacks")
+local Main = Window:NewTab("Scripts")
+local MainSection = Main:NewSection("Scripts")
 
 
 MainSection:NewButton("fly", "you know by the name.", function()
@@ -113,6 +113,14 @@ end)
 
 MainSection:NewButton("Ultimate Admin", "admin abooser demote!!11111", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/bVjM0xCS", true))()
+end)
+
+MainSection:NewButton("KAT GUI", "yes", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/mememasterboi/a-lot-of-scripts/master/Output%20(6).lua'),true))()
+end)
+
+MainSection:NewButton("KAT SCRIPT 2", "kat", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/EqQsSzQ2'),true))()
 end)
 
  --OTHER
@@ -950,6 +958,17 @@ while true do
 		})
 		
 		wait(TimeBetweenNotifications)
+	end
+end
+
+
+
+--IF YOU SKID YOU LIKE MEN
+-- Made By: SmallPreston#0001
+
+--Creds
+--Made By SmallPreston#0001
+-- discord: dsc.gg/smallgameszotifications)
 	end
 end
 
