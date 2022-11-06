@@ -969,9 +969,6 @@ end
 --Creds
 --Made By SmallPreston#0001
 -- discord: dsc.gg/smallgameszotifications)
-	end
-end
-
 
 
 --IF YOU SKID YOU LIKE MEN
@@ -979,4 +976,4 @@ end
 
 --Creds
 --Made By SmallPreston#0001
--- discord: dsc.gg/smallgamesz
+-- discord: dsc.gg/smallgameszg/smallgamesz
