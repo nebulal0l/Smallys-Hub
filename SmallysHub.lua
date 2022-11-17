@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("    Smallys Hub  - 10.6v Beta   ", "DarkTheme")
+local Window = Library.CreateLib("    Smallys Hub  - 10.7v Beta   ", "DarkTheme")
 
 --WELCOME
 
@@ -80,6 +80,26 @@ MainSection:NewButton("Vxpe V4 GUI", "bedwars wow/", function()
  MainSection:NewButton("Da Hood Aimlock", "aimlock for da hood", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
  end)
+
+ MainSection:NewButton("Aimbot", "a bot that aims for you", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SmallPreston/Smallys-Hub/main/AIMBOT.lua"))()
+end)
+
+ MainSection:NewButton("VAPORLITE", "VAPORLITE - BEST Lifting Heroes Script | Autofarm, Free Gamepasses And More!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7fxcode/vaporlite/main/main.lua",true))()
+end)
+
+ MainSection:NewButton("WinterTime", "not what you think its for da hood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+end)
+
+ MainSection:NewButton("Natural Disaster Survival GUI", "follow @smailpreston on tiktok lol", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/73GG/Game-Scripts/main/Natural%20Disaster%20Survival.lua"))()
+end)
+
+MainSection:NewButton("Da Hood Shazam Fly", "make kids mad cus fly", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/DaHoodShazamFly"), true))()
+end)
 
  --LOCAL PLAYER
  local Player = Window:NewTab("Player")
@@ -243,7 +263,7 @@ Section:NewLabel("dsc.gg/smallgamesz")
 
 local Section = Tab:NewSection("Version")
 
-Section:NewLabel("Version: 10.5v BETA")
+Section:NewLabel("Version: 10.7v BETA")
 
 local Section = Tab:NewSection("Keybind")
 
