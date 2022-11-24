@@ -101,14 +101,6 @@ MainSection:NewButton("Da Hood Shazam Fly", "make kids mad cus fly", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/DaHoodShazamFly"), true))()
 end)
 
-MainSection:NewButton("PSX Script", "makes you op ig", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1xnnydev/Delta-PSX/main/loader.lua%22))()
-end)
-
-MainSection:NewButton("Shindo Life Script Super Op", "yall goofy anime lovers", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub%27))()
-end)
-
 MainSection:NewButton("Flood Escape Script", "poland", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/.x.vr.e.hi/loader.lua"))()
 end)
@@ -986,6 +978,29 @@ while true do
 		StarterGui:SetCore("SendNotification", {
 			Title = "SMALLYS GUI HAS LOADED",
 			Text = LOADED,
+			Duration = 5
+		})
+		
+		wait(TimeBetweenNotifications)
+	end
+end
+
+
+
+--IF YOU SKID YOU LIKE MEN
+-- Made By: SmallPreston#0001
+
+--Creds
+--Made By SmallPreston#0001
+-- discord: dsc.gg/smallgameszotifications)
+
+
+--IF YOU SKID YOU LIKE MEN
+-- Made By: SmallPreston#0001
+
+--Creds
+--Made By SmallPreston#0001
+-- discord: dsc.gg/smallgameszg/smallgamesz = LOADED,
 			Duration = 5
 		})
 		
