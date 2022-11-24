@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("    Smallys Hub  - 10.7v Beta   ", "DarkTheme")
+local Window = Library.CreateLib("    Smallys Hub  - 10.8v Beta   ", "DarkTheme")
 
 --WELCOME
 
@@ -99,6 +99,18 @@ end)
 
 MainSection:NewButton("Da Hood Shazam Fly", "make kids mad cus fly", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/DaHoodShazamFly"), true))()
+end)
+
+MainSection:NewButton("PSX Script", "makes you op ig", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1xnnydev/Delta-PSX/main/loader.lua%22))()
+end)
+
+MainSection:NewButton("Shindo Life Script Super Op", "yall goofy anime lovers", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub%27))()
+end)
+
+MainSection:NewButton("Flood Escape Script", "poland", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/.x.vr.e.hi/loader.lua"))()
 end)
 
  --LOCAL PLAYER
@@ -263,7 +275,7 @@ Section:NewLabel("dsc.gg/smallgamesz")
 
 local Section = Tab:NewSection("Version")
 
-Section:NewLabel("Version: 10.7v BETA")
+Section:NewLabel("Version: 10.8v BETA")
 
 local Section = Tab:NewSection("Keybind")
 
