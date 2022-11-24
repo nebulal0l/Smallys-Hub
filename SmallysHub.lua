@@ -9,7 +9,6 @@ Section:NewLabel("Thanks for using! :)")
 Section:NewLabel("Made By: SmallPreston#0001")
 Section:NewLabel("Discord: dsc.gg/smallgamesz")
 
-
 -- MAIN
 local Main = Window:NewTab("Scripts")
 local MainSection = Main:NewSection("Scripts")
@@ -113,6 +112,11 @@ MainSection:NewButton("Universal Anti-AFK, ESP, Infinity Yield", "swalalala", fu
     loadstring(game:HttpGet("https://raw.githubusercontent.com/probablYnicKxD/ProjectLunar/main/LunarHub/Source.lua"))()
 end)
 
+MainSection:NewButton("PSX Script lol", "psx wow", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/pet_sim_x_lk.lua")()
+end)
+
+
  --LOCAL PLAYER
  local Player = Window:NewTab("Player")
  local PlayerSection = Player:NewSection("Player")
@@ -126,7 +130,27 @@ PlayerSection:NewSlider("JumpPower", "how much JumpPower you want", 350, 50, fun
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-MainSection:NewButton("Reset WS/JP", "Reset Your Walkspeed And JumpPower", function()
+ PlayerSection:NewButton("fov lol", "make kid mad!", function()
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/PRw16c2Y")))
+end)
+
+ PlayerSection:NewButton("120 fov", "make kid mad!", function()
+    workspace.CurrentCamera.FieldOfView = 120
+end)
+
+ PlayerSection:NewButton("90 fov", "make kid mad!", function()
+    workspace.CurrentCamera.FieldOfView = 90
+end)
+
+ PlayerSection:NewButton("100 fov", "make kid mad!", function()
+    workspace.CurrentCamera.FieldOfView = 100
+end)
+
+ PlayerSection:NewButton("80 fov", "make kid mad!", function()
+    workspace.CurrentCamera.FieldOfView = 80
+end)
+
+ PlayerSection:NewButton("Reset WS/JP", "Reset Your Walkspeed And JumpPower", function()
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
  end)
@@ -153,6 +177,20 @@ end)
 
 MainSection:NewButton("KAT SCRIPT 2", "kat", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/EqQsSzQ2'),true))()
+end)
+
+--HUBS
+ local Tab = Window:NewTab("Hubs")
+local Section = Tab:NewSection("Keyless Hubs")
+ 
+Section:NewButton("Wheathub", "por-", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter/wheathub/main/scripts"))()
+end)
+
+local Section = Tab:NewSection("Non Keyless Hubs")
+
+Section:NewButton("Darkhub", "nice", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
 
  --OTHER
