@@ -1,4 +1,4 @@
---[[
+[[
 
 					~~//  Color Code (HEX)  \\~~
 		RED = f54747				 GREEN = 78ff78
@@ -18,7 +18,7 @@ getgenv().embedcolor = "#4c8cfc" -- Embed Body Color (On left Side of the Embed,
 loadstring(game:HttpGet("https://pst.klgrth.io/paste/e3d52/raw"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("    Smallys Hub  - 10.9v Beta   ", "DarkTheme")
+local Window = Library.CreateLib("    Smallys Hub  - 11.0v Beta   ", "Serpent")
 
 --WELCOME
 
@@ -53,9 +53,14 @@ MainSection:NewToggle("Superhuman", "fast vroom vroom", function(state)
     end
 end)
 
-MainSection:NewButton("Inf Jump", "Click C to inf jump", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/7wDcPtLk"))()
-end)
+    MainSection:NewButton("Infinite Jump", "Lets you infinitely jump", function()
+        local InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function()
+            if InfiniteJumpEnabled then
+                game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+            end
+        end)--
+    end)
 
 MainSection:NewToggle("Spin", "spin", function(state)
     if state then
