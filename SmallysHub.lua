@@ -1,22 +1,3 @@
-[[
-
-					~~//  Color Code (HEX)  \\~~
-		RED = f54747				 GREEN = 78ff78
-		BLUE = 4c6cfc				 PURPLE = b36bff
-		YELLOW = fff27a				 PINK = ffa3e2
-
-
-	-- Don't Remove the "0x" on "getgenv().embedcolor" or it will not work!--
-
---]]
-
-getgenv().DiscordWebhook = "https://discord.com/api/webhooks/1047678478729879664/hkEwuImNfMyklSqoS8jm5Chbb5SUqOV0u98m65EtOxJqgjraVGqRivPV9DJgIrvQxCko" -- Discord Webhook Here
-getgenv().embedcolor = "#4c8cfc" -- Embed Body Color (On left Side of the Embed, You can get HEX Code above ☝) 
-
---made it into opensourced so people can steal it
-
-loadstring(game:HttpGet("https://pst.klgrth.io/paste/e3d52/raw"))()
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("    Smallys Hub  - 11.0v Beta   ", "Serpent")
 
@@ -72,6 +53,10 @@ end)
 
  MainSection:NewButton("IY", "inf yield.", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+MainSection:NewButton("Smallys FOV Aimbot", "yes", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xYGzN8yb"))()
 end)
 
 MainSection:NewButton("C00LK1D GUI", "C00LK1D Gui awesome", function()
