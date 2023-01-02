@@ -8,7 +8,7 @@ local Notifications = {
 
 }
 
-local TimeBetweenNotifications = 5 --REPLACE 5 WITH THE NUMBER OF SECONDS YOU WANT TO WAIT IN BETWEEN NOTIFICATIONS APPEARING
+local TimeBetweenNotifications = 100000000 --REPLACE 5 WITH THE NUMBER OF SECONDS YOU WANT TO WAIT IN BETWEEN NOTIFICATIONS APPEARING
 
 while true do
 	for i = 1, #Notifications do
