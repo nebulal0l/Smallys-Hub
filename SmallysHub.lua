@@ -155,6 +155,9 @@ end)
 DoorsSection:NewButton("enity spawner", "insert black monkey suprised", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/plamen6789/OldEntityGUI/main/OldEntityGUI"))()
 end)
+DoorsSection:NewButton("vynixius", "yay", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
 
  --LOCAL PLAYER
  local Player = Window:NewTab("Player")
